@@ -1,0 +1,108 @@
+body {
+    background-color: #edf2f7;
+    font-family: arial;
+}
+
+header,
+.card-deck,
+footer {
+    width: 960px;
+    background-color: #fff;
+    margin: 40px auto;
+}
+
+header{
+    text-align: center;
+}
+
+h1,
+span {
+    color: #dd6b20;
+}
+
+h1 {
+    font-size: 125px;
+}
+
+h2 {
+    color: #8594ad;
+    font-size: 32px;
+    padding-bottom: 60px;
+}
+
+.card-deck h2,
+ul {
+    text-align: center;
+}
+
+li {
+    color: #68778d;
+    font-size: 18px;
+    padding: 16px 0;
+}
+
+.card-deck ul li:last-child {
+    padding-bottom: 32px;
+}
+
+.hire-btn {
+    padding: 12px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hire-btn:link, .hire-btn:visited {
+    background-color: #fff;
+    color: #68778d;
+    border: solid 2px #dd6b20;
+}
+
+.hire-btn:hover, .hire-btn:active {
+    background-color: #dd6b20;
+    color: #fff;
+}
+
+.card-deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #edf2f7;
+}
+
+.card-deck section {
+    width: 300px;
+    background-color: #fff;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 48px;
+    line-height: 48px;
+    text-indent: 32px;
+}
+
+footer p {
+    font-style: italic;
+    color: #68778d;
+}
+
+/*   --- navigational behaviours ---   */
+
+/* unvisited & visited links */
+a:link, a:visited {
+  color: #68778d;
+}
+
+/* mouse over link & selected links */
+a:hover, a:active {
+  color: #000;
+}
+
+
+
+
+
+
